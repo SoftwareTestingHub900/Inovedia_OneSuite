@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [OneSuite]]">
+  <test thread-count="5" name="Signup_Subsciber(failed)(failed)">
+    <classes>
+      <class name="com.onesuite.testcases.Signup_Subsciber">
+        <methods>
+          <include name="signup"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.onesuite.testcases.Signup_Subsciber -->
+    </classes>
+  </test> <!-- Signup_Subsciber(failed)(failed) -->
+  <test thread-count="5" name="SubscriberRecharge(failed)(failed)">
+    <classes>
+      <class name="com.onesuite.testcases.SubscriberRecharge">
+        <methods>
+          <include name="Login"/>
+          <include name="Recharge"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.onesuite.testcases.SubscriberRecharge -->
+    </classes>
+  </test> <!-- SubscriberRecharge(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [OneSuite]] -->

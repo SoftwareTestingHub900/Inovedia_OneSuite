@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OneSuite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Signup_Subsciber(failed)">
+    <classes>
+      <class name="com.onesuite.testcases.Signup_Subsciber">
+        <methods>
+          <include name="signup"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.onesuite.testcases.Signup_Subsciber -->
+    </classes>
+  </test> <!-- Signup_Subsciber(failed) -->
+  <test thread-count="5" name="SubscriberRecharge(failed)">
+    <classes>
+      <class name="com.onesuite.testcases.SubscriberRecharge">
+        <methods>
+          <include name="Recharge"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.onesuite.testcases.SubscriberRecharge -->
+    </classes>
+  </test> <!-- SubscriberRecharge(failed) -->
+  <test thread-count="5" name="BuyOSNumber(failed)">
+    <classes>
+      <class name="com.onesuite.testcases.BuyOSNumber">
+        <methods>
+          <include name="BuyOSNumber"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.onesuite.testcases.BuyOSNumber -->
+    </classes>
+  </test> <!-- BuyOSNumber(failed) -->
+  <test thread-count="5" name="MyNumberlisting(failed)">
+    <classes>
+      <class name="com.onesuite.testcases.MyNumberlisting">
+        <methods>
+          <include name="AddName"/>
+          <include name="SetCallforwarding"/>
+          <include name="Setup"/>
+          <include name="SetCallerId"/>
+          <include name="AddCLI"/>
+          <include name="AutoRenew"/>
+        </methods>
+      </class> <!-- com.onesuite.testcases.MyNumberlisting -->
+    </classes>
+  </test> <!-- MyNumberlisting(failed) -->
+  <test thread-count="5" name="CallForwarding(failed)">
+    <classes>
+      <class name="com.onesuite.testcases.CallForwarding">
+        <methods>
+          <include name="CallForwardingNum"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.onesuite.testcases.CallForwarding -->
+    </classes>
+  </test> <!-- CallForwarding(failed) -->
+  <test thread-count="5" name="CallBack(failed)">
+    <classes>
+      <class name="com.onesuite.testcases.CallBack">
+        <methods>
+          <include name="Callback"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.onesuite.testcases.CallBack -->
+    </classes>
+  </test> <!-- CallBack(failed) -->
+  <test thread-count="5" name="CallPlan(failed)">
+    <classes>
+      <class name="com.onesuite.testcases.CallPlan">
+        <methods>
+          <include name="Callplan"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.onesuite.testcases.CallPlan -->
+    </classes>
+  </test> <!-- CallPlan(failed) -->
+  <test thread-count="5" name="Support(failed)">
+    <classes>
+      <class name="com.onesuite.testcases.Support">
+        <methods>
+          <include name="Setup"/>
+          <include name="SupportManagement"/>
+        </methods>
+      </class> <!-- com.onesuite.testcases.Support -->
+    </classes>
+  </test> <!-- Support(failed) -->
+  <test thread-count="5" name="UpdateSubscriberProfile(failed)">
+    <classes>
+      <class name="com.onesuite.testcases.UpdateSubscriberProfile">
+        <methods>
+          <include name="SubscriberProfile"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.onesuite.testcases.UpdateSubscriberProfile -->
+    </classes>
+  </test> <!-- UpdateSubscriberProfile(failed) -->
+  <test thread-count="5" name="AddressBook(failed)">
+    <classes>
+      <class name="com.onesuite.testcases.AddressBook">
+        <methods>
+          <include name="Setup"/>
+          <include name="SubscriberAddressBook"/>
+        </methods>
+      </class> <!-- com.onesuite.testcases.AddressBook -->
+    </classes>
+  </test> <!-- AddressBook(failed) -->
+</suite> <!-- Failed suite [OneSuite] -->

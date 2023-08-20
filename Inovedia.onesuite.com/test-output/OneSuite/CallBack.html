@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>TestNG:  CallBack</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CallBack</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 03 17:14:30 PKT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>23 seconds (23090 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.onesuite.testcases.MyNumberlisting.AddCLI()'><b>AddCLI</b><br>Test class: com.onesuite.testcases.MyNumberlisting</td>
+<td></td>
+<td>5</td>
+<td>com.onesuite.testcases.MyNumberlisting@53fb3dab</td></tr>
+<tr>
+<td title='com.onesuite.testcases.MyNumberlisting.AddName()'><b>AddName</b><br>Test class: com.onesuite.testcases.MyNumberlisting</td>
+<td></td>
+<td>10</td>
+<td>com.onesuite.testcases.MyNumberlisting@53fb3dab</td></tr>
+<tr>
+<td title='com.onesuite.testcases.MyNumberlisting.AutoRenew()'><b>AutoRenew</b><br>Test class: com.onesuite.testcases.MyNumberlisting</td>
+<td></td>
+<td>21</td>
+<td>com.onesuite.testcases.MyNumberlisting@53fb3dab</td></tr>
+<tr>
+<td title='com.onesuite.testcases.BuyOSNumber.BuyOSNumber()'><b>BuyOSNumber</b><br>Test class: com.onesuite.testcases.BuyOSNumber</td>
+<td></td>
+<td>32</td>
+<td>com.onesuite.testcases.BuyOSNumber@663c9e7a</td></tr>
+<tr>
+<td title='com.onesuite.testcases.CallForwarding.CallForwardingNum()'><b>CallForwardingNum</b><br>Test class: com.onesuite.testcases.CallForwarding</td>
+<td></td>
+<td>34</td>
+<td>com.onesuite.testcases.CallForwarding@1c5920df</td></tr>
+<tr>
+<td title='com.onesuite.testcases.CallBack.Callback()'><b>Callback</b><br>Test class: com.onesuite.testcases.CallBack</td>
+<td></td>
+<td>23</td>
+<td>com.onesuite.testcases.CallBack@4b29d1d2</td></tr>
+<tr>
+<td title='com.onesuite.testcases.SubscriberRecharge.Recharge()'><b>Recharge</b><br>Test class: com.onesuite.testcases.SubscriberRecharge</td>
+<td></td>
+<td>43</td>
+<td>com.onesuite.testcases.SubscriberRecharge@1ca3b418</td></tr>
+<tr>
+<td title='com.onesuite.testcases.MyNumberlisting.SetCallerId()'><b>SetCallerId</b><br>Test class: com.onesuite.testcases.MyNumberlisting</td>
+<td></td>
+<td>24</td>
+<td>com.onesuite.testcases.MyNumberlisting@53fb3dab</td></tr>
+<tr>
+<td title='com.onesuite.testcases.MyNumberlisting.SetCallforwarding()'><b>SetCallforwarding</b><br>Test class: com.onesuite.testcases.MyNumberlisting</td>
+<td></td>
+<td>15</td>
+<td>com.onesuite.testcases.MyNumberlisting@53fb3dab</td></tr>
+<tr>
+<td title='com.onesuite.testcases.Signup_Subsciber.signup()'><b>signup</b><br>Test class: com.onesuite.testcases.Signup_Subsciber</td>
+<td></td>
+<td>122</td>
+<td>com.onesuite.testcases.Signup_Subsciber@54c5a2ff</td></tr>
+</table><p>
+</body>
+</html>

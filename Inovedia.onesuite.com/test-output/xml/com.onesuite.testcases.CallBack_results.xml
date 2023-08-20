@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CallBack"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="23.079">
+  <properties />
+  
+  
+            <testcase name="Callback" time="23.079" classname="com.onesuite.testcases.CallBack" />
+      
+</testsuite>

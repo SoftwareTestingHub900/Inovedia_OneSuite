@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MyNumberlisting"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="77.274">
+  <properties />
+  
+  
+            <testcase name="AddCLI" time="5.244" classname="com.onesuite.testcases.MyNumberlisting" />
+                <testcase name="SetCallforwarding" time="15.777" classname="com.onesuite.testcases.MyNumberlisting" />
+                <testcase name="SetCallerId" time="24.148" classname="com.onesuite.testcases.MyNumberlisting" />
+                <testcase name="AddName" time="10.966" classname="com.onesuite.testcases.MyNumberlisting" />
+                <testcase name="AutoRenew" time="21.139" classname="com.onesuite.testcases.MyNumberlisting" />
+      
+</testsuite>

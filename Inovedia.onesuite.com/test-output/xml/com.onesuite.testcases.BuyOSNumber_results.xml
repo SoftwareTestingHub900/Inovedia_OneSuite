@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BuyOSNumber"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="32.345">
+  <properties />
+  
+  
+            <testcase name="BuyOSNumber" time="32.345" classname="com.onesuite.testcases.BuyOSNumber" />
+      
+</testsuite>
